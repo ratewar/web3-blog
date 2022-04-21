@@ -26,7 +26,19 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env*.local
+#.env*.local
 
 # vercel
 .vercel
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+#artifacts
+
+.secret
